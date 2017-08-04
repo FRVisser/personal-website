@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+ @import url('https://fonts.googleapis.com/css?family=Exo+2');
 @import url("font-awesome.min.css");
 
 /*
@@ -60,7 +60,13 @@
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+
+
+
+
+		    font-family: 'Exo 2', sans-serif;
+
+
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -186,7 +192,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #000000 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -260,7 +266,7 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: 2000px auto;
 		width: 6750px;
 	}
 
@@ -511,6 +517,9 @@
 		top: -1em;
 		vertical-align: middle;
 		width: 90%;
+		max-width: 30em;
+		border-radius: 25px;
+		background-color:rgba(9, 9, 9, 0.4);
 	}
 
 		#header h1 {
@@ -846,7 +855,7 @@
 		}
 
 		#bg {
-			background-size: 750px auto;
+			background-size: 2000px auto;
 			width: 2250px;
 		} }
 
